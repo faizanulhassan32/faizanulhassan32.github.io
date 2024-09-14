@@ -385,12 +385,17 @@ img {
 
 .button--white:hover {
   background-color: #fff;
+  color: #fff;
 }
 
 .button--flex {
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
+}
+
+.button--flex:hover {
+  color:#fff
 }
 
 .button--small {
@@ -411,6 +416,7 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
+  height: 600px;
   border-radius: 0.5rem;
   justify-self: center;
   align-items: center;
@@ -418,6 +424,7 @@ img {
 
 .about__description {
   text-align: center;
+  margin-right: -120px;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -508,7 +515,7 @@ img {
 }
 
 .skills__bar {
-  background-color: var(--first-color-lighter);
+  background-color:black;
 }
 
 .skills__percentage {
@@ -516,53 +523,6 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
-  width: 70%;
-}
-
-.skills__js {
-  width: 65%;
-}
-
-.skills__react {
-  width: 60%;
-}
-
-.skills__nodejs {
-  width: 40%;
-}
-
-.skills__express {
-  width: 35%;
-}
-
-.skills__python {
-  width: 70%;
-}
-
-.skills__mysql {
-  width: 45%;
-}
-
-.skills__mongo {
-  width: 55%;
-}
-
-.skills__git {
-  width: 65%;
-}
-
-.skills__adobe {
-  width: 30%;
-}
-
-.skills__figma {
-  width: 45%;
-}
-
-.skills__canva {
-  width: 80%;
-}
 
 .skills__close .skills__list {
   height: 0;
@@ -1206,7 +1166,7 @@ img {
       width: 350px;
     }
     .about__description {
-      text-align: left;
+      text-align: justify;
     }
     .about__info {
       justify-content: space-between;
